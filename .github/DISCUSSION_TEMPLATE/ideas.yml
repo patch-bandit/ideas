@@ -1,0 +1,34 @@
+title: "Idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a simple job somebody charges rent for that a browser could do for free? Drop it in the stash below.
+        Everything posted here is public, so keep private details out.
+
+  - type: textarea
+    id: the-idea
+    attributes:
+      label: The idea
+      description: What is the one small job this free online tool should do in a browser?
+      placeholder: Example — a browser tool that strips hidden camera and location data from a photo with one click.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-it-replaces
+    attributes:
+      label: What it replaces or who charges for it now
+      description: Which fee, subscription, login wall, watermark, or tracker does this replace?
+      placeholder: Example — sites that charge a monthly fee or force an account just to download a clean file.
+    validations:
+      required: true
+
+  - type: textarea
+    id: who-it-helps
+    attributes:
+      label: Who it would help
+      description: Who runs into this annoyance and would use a free, no-account version?
+      placeholder: Example — anyone sharing photos, small shop owners, students, or folks tired of signing up for one-off tasks.
+    validations:
+      required: true
